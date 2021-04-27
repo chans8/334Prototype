@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css" integrity="sha512-kJ30H6g4NGhWopgdseRb8wTsyllFUYIx3hiUwmGAkgA9B/JbzUBDQVr2VVlWGde6sdBVOG7oU8AL35ORDuMm8g==" crossorigin="anonymous" />
+
+    <!-- bootstrap cdn links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div class="main-body">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 my-courses">
+            <h6 class="text-white pl-5"><img src="images/course-icon.svg" class="course-icon" width="24" height="24" alt="icon">&nbsp My Courses</h6>
+         <br>
+            <br>
+          <div class="row">
+
+            <div class="col-lg-9 col-md-9 col-sm-12">
+                <h4 class="text-center" style="color: #85b2ff">COURSE</h4>
+
+                <div class="course">
+                 <a href="#" id="aa">CSC 497</a>
+                    <span class="numbers">16</span>
+                    <br>
+                    <br>
+                <a href="#" id="bb">CSC 334</a>
+                    <span class="numbers">16</span>
+                    <br>
+                    <br>
+                <a href="#" id="cc">SPA 200</a>
+                    <br>
+                    <br>
+                    <a href="#" id="dd">ENG 304 - 01W</a>
+                    <br>
+                    <br>
+                    <a href="#" id="ee">MAT 178 </a>
+                    <span class="numbers">10</span>
+                </div>
+
+             </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 weightage">
+                  <h6 class="text-center total">Weighted Total</h6>
+
+                  <div class="course-2">
+                      <p>A</p>
+
+
+                      <p class="pt-2">A</p>
+
+                      <p class="pt-2">A</p>
+
+                      <p class="pt-2">A</p>
+
+                      <p class="pt-2">A</p>
+
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Right side -->
+
+        <div class="col-lg-9 col-md-9 col-sm-12">
+
+            <div id="category-1">
+
+            <div class="right-side">
+                <h4 class="text-center " style="color: #02499d">CSC 334</h4>
+                <br>
+                <div class="container tabs">
+                    <a href="#"><button class="btn" id="tab1" type="button">TOTAL</button></a>
+                    <a href="#"><button class="btn" id="tab2" type="button">GRADED <span class="numbers">2</span></button></a>
+                    <a href="#"><button class="btn" id="tab3" type="button">UNGRADED <span class="numbers">10</span></button></a>
+                    <a href="#"><button class="btn" id="tab4" type="button">SUBMITTED</button></a>
+                    <a href="#"><button class="btn" id="tab5" type="button">UPCOMING <span class="numbers">4</span></button></a>
+                </div>
+            </div>
+            <br>
+
+                <!-- Tabs -->
+
+
+                <div id="total-tab">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h5 class="text-center headings">Assignment</h5>
+                    <div class="assign-list">
+                    <p>Week 9 Risk Management</p>
+                        <br>
+                    <p>Week 8 Security Standards and Control</p>
+                        <br>
+                    <p class="red-alert">Week 10 Security Metrics</p>
+                        <br>
+                    <p>Midterm Exams</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h5 class="pl-4 headings">Due Date</h5>
+                    <div class="assign-list">
+                        <p>05/04/2021</p>
+                        <br>
+                        <p>06/04/2021</p>
+                        <br>
+                        <p class="red-alert">07/04/2021</p>
+                        <br>
+                        <p>10/04/2021</p>
+                        <br>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h5 class="pl-3 headings">Grade</h5>
+                    <div class="assign-list">
+                        <p>100</p>
+                        <br>
+                        <p>100</p>
+                        <br>
+                        <p class="red-alert" style="visibility: hidden">60</p>
+                        <br>
+                        <p>96</p>
+                        <br>
+
+                    </div>
+                </div>
+            </div>
+                </div>
+
+                <div id="graded-tab" style="display: none">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h5 class="text-center headings">Assignment</h5>
+                            <div class="assign-list">
+                                <p>Week 9 Risk Management</p>
+                                <br>
+                                <p>Week 8 Security Standards and Control</p>
+                                <br>
+                                <p>Midterm Exams</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-4 headings">Due Date</h5>
+                            <div class="assign-list">
+                                <p>05/04/2021</p>
+                                <br>
+                                <p>06/04/2021</p>
+                                <br>
+                                <p>10/04/2021</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-3 headings">Grade</h5>
+                            <div class="assign-list">
+                                <p>100</p>
+                                <br>
+                                <p>100</p>
+                                <br>
+                                <p>96</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ungraded-tab" style="display: none">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h5 class="text-center headings">Assignment</h5>
+                            <div class="assign-list">
+
+                                <p class="red-alert">Week 10 Security Metrics</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-4 headings">Due Date</h5>
+                            <div class="assign-list">
+
+                                <p class="red-alert">07/04/2021</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-3 headings">Grade</h5>
+                            <div class="assign-list">
+
+                                <p class="red-alert" style="visibility: hidden">60</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="submitted-tab" style="display: none">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h5 class="text-center headings">Assignment</h5>
+                            <div class="assign-list">
+                                <p>Week 9 Risk Management</p>
+                                <br>
+                                <p>Week 8 Security Standards and Control</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-4 headings">Due Date</h5>
+                            <div class="assign-list">
+                                <p>05/04/2021</p>
+                                <br>
+                                <p>06/04/2021</p>
+                                <br>
+
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-3 headings">Grade</h5>
+                            <div class="assign-list">
+                                <p>100</p>
+                                <br>
+                                <p>100</p>
+                                <br>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="upcoming-tab" style="display: none">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h5 class="text-center headings">Assignment</h5>
+                            <div class="assign-list">
+
+                                <p>Midterm Exams</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-4 headings">Due Date</h5>
+                            <div class="assign-list">
+
+                                <p>10/04/2021</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-3 headings">Grade</h5>
+                            <div class="assign-list">
+
+                                <p class="red-alert" style="visibility: hidden">60</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               <!-- Tabs -->
+
+            </div>
+
+            <div id="category-2" style="display: none">
+
+                <div class="right-side">
+                    <h4 class="text-center " style="color: #02499d">SPA 200</h4>
+                    <br>
+                    <div class="container tabs">
+                        <a href="#"><button class="btn" id="tab11" type="button">TOTAL</button></a>
+                        <a href="#"><button class="btn" id="tab22" type="button">GRADED <span class="numbers">2</span></button></a>
+                        <a href="#"><button class="btn" id="tab33" type="button">UNGRADED <span class="numbers">10</span></button></a>
+                        <a href="#"><button class="btn"  id="tab44" type="button">SUBMITTED</button></a>
+                        <a href="#"><button class="btn" id="tab55" type="button">UPCOMING <span class="numbers">4</span></button></a>
+                    </div>
+                </div>
+                <br>
+                <!-- Tabs -->
+
+
+                <div id="total-tab2">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h5 class="text-center headings">Assignment</h5>
+                            <div class="assign-list">
+                                <p>Week 9 Risk Management</p>
+                                <br>
+                                <p>Week 8 Security Standards and Control</p>
+                                <br>
+                                <p class="red-alert">Week 10 Security Metrics</p>
+                                <br>
+                                <p>Midterm Exams</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-4 headings">Due Date</h5>
+                            <div class="assign-list">
+                                <p>05/04/2021</p>
+                                <br>
+                                <p>06/04/2021</p>
+                                <br>
+                                <p class="red-alert">07/04/2021</p>
+                                <br>
+                                <p>10/04/2021</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-3 headings">Grade</h5>
+                            <div class="assign-list">
+                                <p>100</p>
+                                <br>
+                                <p>100</p>
+                                <br>
+                                <p class="red-alert" style="visibility: hidden">60</p>
+                                <br>
+                                <p>96</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="graded-tab2" style="display: none">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h5 class="text-center headings">Assignment</h5>
+                            <div class="assign-list">
+                                <p>Week 9 Risk Management</p>
+                                <br>
+                                <p>Week 8 Security Standards and Control</p>
+                                <br>
+                                <p>Midterm Exams</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-4 headings">Due Date</h5>
+                            <div class="assign-list">
+                                <p>05/04/2021</p>
+                                <br>
+                                <p>06/04/2021</p>
+                                <br>
+                                <p>10/04/2021</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-3 headings">Grade</h5>
+                            <div class="assign-list">
+                                <p>100</p>
+                                <br>
+                                <p>100</p>
+                                <br>
+                                <p>96</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ungraded-tab2" style="display: none">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h5 class="text-center headings">Assignment</h5>
+                            <div class="assign-list">
+
+                                <p class="red-alert">Week 10 Security Metrics</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-4 headings">Due Date</h5>
+                            <div class="assign-list">
+
+                                <p class="red-alert">07/04/2021</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-3 headings">Grade</h5>
+                            <div class="assign-list">
+
+                                <p class="red-alert" style="visibility: hidden">60</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="submitted-tab2" style="display: none">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h5 class="text-center headings">Assignment</h5>
+                            <div class="assign-list">
+                                <p>Week 9 Risk Management</p>
+                                <br>
+                                <p>Week 8 Security Standards and Control</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-4 headings">Due Date</h5>
+                            <div class="assign-list">
+                                <p>05/04/2021</p>
+                                <br>
+                                <p>06/04/2021</p>
+                                <br>
+
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-3 headings">Grade</h5>
+                            <div class="assign-list">
+                                <p>100</p>
+                                <br>
+                                <p>100</p>
+                                <br>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="upcoming-tab2" style="display: none">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h5 class="text-center headings">Assignment</h5>
+                            <div class="assign-list">
+
+                                <p>Midterm Exams</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-4 headings">Due Date</h5>
+                            <div class="assign-list">
+
+                                <p>10/04/2021</p>
+                                <br>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="pl-3 headings">Grade</h5>
+                            <div class="assign-list">
+
+                                <p class="red-alert" style="visibility: hidden">60</p>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabs -->
+                <!--
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h5 class="text-center headings">Assignment</h5>
+                        <div class="assign-list">
+                            <p>Week 9 Risk Management</p>
+                            <br>
+                            <p>Week 8 Security Standards and Control</p>
+                            <br>
+                            <p class="red-alert">Week 10 Security Metrics</p>
+                            <br>
+                            <p>Midterm Exams</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <h5 class="pl-4 headings">Due Date</h5>
+                        <div class="assign-list">
+                            <p>05/04/2021</p>
+                            <br>
+                            <p>06/04/2021</p>
+                            <br>
+                            <p class="red-alert">07/04/2021</p>
+                            <br>
+                            <p>10/04/2021</p>
+                            <br>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <h5 class="pl-3 headings">Grade</h5>
+                        <div class="assign-list">
+                            <p>100</p>
+                            <br>
+                            <p>100</p>
+                            <br>
+                            <p class="red-alert" style="visibility: hidden">60</p>
+                            <br>
+                            <p>96</p>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+-->
+            </div>
+
+            <div id="category-3" style="display: none">
+
+                <div class="right-side">
+                    <h4 class="text-center "  style="color: #02499d">ENG 304 - 01W</h4>
+                    <br>
+                    <div class="container tabs">
+                        <a href="#"><button class="btn" type="button">TOTAL</button></a>
+                        <a href="#"><button class="btn" type="button">GRADED <span class="numbers">2</span></button></a>
+                        <a href="#"><button class="btn" type="button">UNGRADED <span class="numbers">10</span></button></a>
+                        <a href="#"><button class="btn" type="button">SUBMITTED</button></a>
+                        <a href="#"><button class="btn" type="button">UPCOMING <span class="numbers">4</span></button></a>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h5 class="text-center headings">Assignment</h5>
+                        <div class="assign-list">
+                            <p>Week 9 Risk Management</p>
+                            <br>
+                            <p>Week 8 Security Standards and Control</p>
+                            <br>
+                            <p class="red-alert">Week 10 Security Metrics</p>
+                            <br>
+                            <p>Midterm Exams</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <h5 class="pl-4 headings">Due Date</h5>
+                        <div class="assign-list">
+                            <p>05/04/2021</p>
+                            <br>
+                            <p>06/04/2021</p>
+                            <br>
+                            <p class="red-alert">07/04/2021</p>
+                            <br>
+                            <p>10/04/2021</p>
+                            <br>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <h5 class="pl-3 headings">Grade</h5>
+                        <div class="assign-list">
+                            <p>100</p>
+                            <br>
+                            <p>100</p>
+                            <br>
+                            <p class="red-alert" style="visibility: hidden">60</p>
+                            <br>
+                            <p>96</p>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="category-4" style="display: none">
+
+                <div class="right-side">
+                    <h4 class="text-center " style="color: #02499d">MAT 178</h4>
+                    <br>
+                    <div class="container tabs">
+                        <a href="#"><button class="btn" type="button">TOTAL</button></a>
+                        <a href="#"><button class="btn" type="button">GRADED <span class="numbers">2</span></button></a>
+                        <a href="#"><button class="btn" type="button">UNGRADED <span class="numbers">10</span></button></a>
+                        <a href="#"><button class="btn" type="button">SUBMITTED</button></a>
+                        <a href="#"><button class="btn" type="button">UPCOMING <span class="numbers">4</span></button></a>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h5 class="text-center headings">Assignment</h5>
+                        <div class="assign-list">
+                            <p>Week 9 Risk Management</p>
+                            <br>
+                            <p>Week 8 Security Standards and Control</p>
+                            <br>
+                            <p class="red-alert">Week 10 Security Metrics</p>
+                            <br>
+                            <p>Midterm Exams</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <h5 class="pl-4 headings">Due Date</h5>
+                        <div class="assign-list">
+                            <p>05/04/2021</p>
+                            <br>
+                            <p>06/04/2021</p>
+                            <br>
+                            <p class="red-alert">07/04/2021</p>
+                            <br>
+                            <p>10/04/2021</p>
+                            <br>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <h5 class="pl-3 headings">Grade</h5>
+                        <div class="assign-list">
+                            <p>100</p>
+                            <br>
+                            <p>100</p>
+                            <br>
+                            <p class="red-alert" style="visibility: hidden">60</p>
+                            <br>
+                            <p>96</p>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="category-5" style="display: none">
+
+                <div class="right-side">
+                    <h4 class="text-center "  style="color: #02499d">CSC 497</h4>
+                    <br>
+                    <div class="container tabs">
+                        <a href="#"><button class="btn" type="button">TOTAL</button></a>
+                        <a href="#"><button class="btn" type="button">GRADED <span class="numbers">2</span></button></a>
+                        <a href="#"><button class="btn" type="button">UNGRADED <span class="numbers">10</span></button></a>
+                        <a href="#"><button class="btn" type="button">SUBMITTED</button></a>
+                        <a href="#"><button class="btn" type="button">UPCOMING <span class="numbers">4</span></button></a>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h5 class="text-center headings">Assignment</h5>
+                        <div class="assign-list">
+                            <p>Week 9 Risk Management</p>
+                            <br>
+                            <p>Week 8 Security Standards and Control</p>
+                            <br>
+                            <p class="red-alert">Week 10 Security Metrics</p>
+                            <br>
+                            <p>Midterm Exams</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <h5 class="pl-4 headings">Due Date</h5>
+                        <div class="assign-list">
+                            <p>05/04/2021</p>
+                            <br>
+                            <p>06/04/2021</p>
+                            <br>
+                            <p class="red-alert">07/04/2021</p>
+                            <br>
+                            <p>10/04/2021</p>
+                            <br>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <h5 class="pl-3 headings">Grade</h5>
+                        <div class="assign-list">
+                            <p>100</p>
+                            <br>
+                            <p>100</p>
+                            <br>
+                            <p class="red-alert" style="visibility: hidden">60</p>
+                            <br>
+                            <p>96</p>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+    </div>
+
+
+<script src="script.js" rel="script" type="text/javascript"></script>
+</body>
+</html>
