@@ -679,19 +679,19 @@ tab44444.addEventListener("click", function () {
 tab55555.addEventListener("click", function () {
     tab55555.style.backgroundColor = "white";
     tab55555.style.color = "#054ea4";
-    tab1111.style.backgroundColor = "#054ea4";
-    tab1111.style.color = "white";
-    tab2222.style.backgroundColor = "#054ea4";
-    tab2222.style.color = "white";
-    tab4444.style.backgroundColor = "#054ea4";
-    tab4444.style.color = "white";
-    tab3333.style.backgroundColor = "#054ea4";
-    tab3333.style.color = "white";
+    tab11111.style.backgroundColor = "#054ea4";
+    tab11111.style.color = "white";
+    tab22222.style.backgroundColor = "#054ea4";
+    tab22222.style.color = "white";
+    tab44444.style.backgroundColor = "#054ea4";
+    tab44444.style.color = "white";
+    tab33333.style.backgroundColor = "#054ea4";
+    tab33333.style.color = "white";
 
-    tC4.style.display = "none";
-    tA4.style.display = "none";
-    tB4.style.display = "none";
-    tD4.style.display = "none";
-    tE4.style.display = "block";
+    tC5.style.display = "none";
+    tA5.style.display = "none";
+    tB5.style.display = "none";
+    tD5.style.display = "none";
+    tE5.style.display = "block";
 
 });
