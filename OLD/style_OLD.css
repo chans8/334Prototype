@@ -13,37 +13,33 @@ html body{
     background-color: #1a6bd5;
     padding: 20px;
 }
-
-#course_display {
-    background-color: #00b2ff;
-}
 .course-icon{
     filter: invert(100%);
 }
-.courses{
+.course{
     background-color: #054ea4;
     text-decoration: underline;
     margin: 20px;
     padding: 20px 30px 200px 30px;
     border-radius: 20px;
 }
-.courses a{
+.course a{
     color: white;
 }
-.courses a:hover{
+.course a:hover{
     color: #85b2ff;
 }
 .numbers{
     text-decoration: none !important;
     color: white;
     background-color: #ff6060;
-    /*display: inline-block;*/
+    display: inline-block;
     width: 25px;
     float: right;
     padding-left: 2px;
 }
 
-.weight_total{
+.course-2{
     background-color: #054ea4;
     border-radius: 20px;
     padding: 20px 25px 190px 25px;
@@ -70,23 +66,17 @@ html body{
 .btn{
     background-color: #054ea4;
     color: white;
-    width: 175px;
+    width: 150px;
     border-top-right-radius: 10px !important;
     border-top-left-radius: 10px !important;
-
 }
-#headings{
+.headings{
     color: #3971b3;
 }
 .red-alert{
     color: #ff6868;
 }
-
-#assignments{
+.assign-list{
+    padding: 30px;
     font-weight: 500;
 }
-
-#selected_course {
-    background-color: white;
-}
-
