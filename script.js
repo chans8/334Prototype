@@ -27,20 +27,20 @@ var course1_assignments = [
 
 var course2_assign1 = {assignment:"Quiz 2", due_date:"05/13/21", grade:" ", color:"text-warning", status:"upcoming", unread: true};
 var course2_assign2 = {assignment:"Usability Testing", due_date:"05/04/21", grade:"100", color:"text-black", status:"graded", unread: true};
-var course2_assign3 = {assignment:"Assignment 4", due_date:"04/30/21", grade:"TBD", color:"text-muted", status:"ungraded", unread: true};
+var course2_assign3 = {assignment:"Assignment 5", due_date:"04/30/21", grade:"TBD", color:"text-muted", status:"ungraded", unread: true};
 var course2_assign4 = {assignment:"Presentation 2", due_date:"04/23/21", grade:"TBD", color:"text-muted", status:"ungraded", unread: false};
-var course2_assign5 = {assignment:"Assignment 3", due_date:"04/18/21", grade:"95", color:"text-black", status:"graded", unread: true};
-var course2_assign6 = {assignment:"Week 8 Security", due_date:"04/10/21", grade:"90", color:"text-black", status:"graded", unread: false};
-var course2_assign7 = {assignment:"Week 7 Security Metrics", due_date:"04/01/21", grade:" ", color:"red-alert", status:"unsubmitted", unread: false};
+var course2_assign5 = {assignment:"Assignment 4", due_date:"04/18/21", grade:"95", color:"text-black", status:"graded", unread: true};
+var course2_assign6 = {assignment:"Demo", due_date:"04/10/21", grade:"90", color:"text-black", status:"graded", unread: false};
+var course2_assign7 = {assignment:"Progress Report", due_date:"04/01/21", grade:" ", color:"red-alert", status:"unsubmitted", unread: false};
 var course2_assign8 = {assignment:"Midterm Exam", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
-var course2_assign9 = {assignment:"Midterm Exam", due_date:"03/29/21", grade:"96", color:"text-muted", status:"ungraded", unread: true};
-var course2_assign10 = {assignment:"Midterm Exam", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
-var course2_assign11 = {assignment:"Midterm Exam", due_date:"03/29/21", grade:"96", color:"red-alert", status:"unsubmitted", unread: true};
-var course2_assign12 = {assignment:"Midterm Exam", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
-var course2_assign13 = {assignment:"Midterm Exam", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
-var course2_assign14 = {assignment:"Midterm Exam", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: true};
-var course2_assign15 = {assignment:"Midterm Exam", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
-var course2_assign16 = {assignment:"Midterm Exam", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
+var course2_assign9 = {assignment:"Assignment 3", due_date:"03/29/21", grade:"96", color:"text-muted", status:"ungraded", unread: true};
+var course2_assign10 = {assignment:"Optional Assignment", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
+var course2_assign11 = {assignment:"Assignment 2", due_date:"03/29/21", grade:"96", color:"red-alert", status:"unsubmitted", unread: true};
+var course2_assign12 = {assignment:"In-Class 3", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
+var course2_assign13 = {assignment:"Presentation 1", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
+var course2_assign14 = {assignment:"Assignment 1", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: true};
+var course2_assign15 = {assignment:"In-Class 2", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
+var course2_assign16 = {assignment:"In-Class 1", due_date:"03/29/21", grade:"96", color:"text-black", status:"graded", unread: false};
 
 
 var course2_assignments = [
