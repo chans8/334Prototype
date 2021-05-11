@@ -142,12 +142,12 @@ function displayTotalAssignments(current_course) {
     for(var i=0;i<course_list.length;i++){
         if(course_list[i] == current_course) {
             var assignment_list = course_assign_list[i];
-        } 
+        }
     }
     
     assignments_section.innerHTML = ``; // rewrites the assignments section, so that it does not append
     // This loop adds a div to the assignments section for each assignment in the current course.
-    for(var i=0;i<assignment_list.length;i++){  
+    for(var i=0;i<assignment_list.length;i++){ //Does not like this line
         // This function determines if the row number is odd. 
         // This is for displaying alternating background colors for the assignment rows.
         function isOdd(num) { return num % 2;}
