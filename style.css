@@ -35,12 +35,24 @@ html body{
 }
 .numbers{
     text-decoration: none !important;
-    color: white;
-    background-color: #ff6060;
+    background-color: #00b2ff;
     /*display: inline-block;*/
-    width: 25px;
+    width: 20px;
     float: right;
+    text-align: center;
+    color: white;
+    padding-right: 2px;
     padding-left: 2px;
+}
+
+
+
+#notif_unsub_tab {
+    background-color: #ff6868;
+}
+
+#notif_ungraded_tab {
+    background-color:rgb(159, 162, 167);
 }
 
 .weight_total{
@@ -70,7 +82,7 @@ html body{
 .btn{
     background-color: #054ea4;
     color: white;
-    width: 175px;
+    width: 200px;
     border-top-right-radius: 10px !important;
     border-top-left-radius: 10px !important;
 

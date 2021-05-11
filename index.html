@@ -23,7 +23,18 @@
 <div class="main-body">
     <div class="row">
         <div class="col-lg-3 col-md-12 col-sm-12 my-courses">
-            <h6 class="text-white pl-5"><img src="images/course-icon.svg" class="course-icon" width="24" height="24" alt="icon">&nbsp My Courses</h6>
+            <div class="row">
+                <div class="col-1 ml-4">
+                    <a href="https://southernct.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1" target="_blank">
+                        <img src="images/bb-logo.png" alt="BlackBoard Home" style="width:53px;height:40px;">
+                    </a>
+                </div>
+                <div class="col-8 mt-1">
+                    <h6 class="text-white pl-5"><img src="images/course-icon.svg" class="course-icon" width="24" height="24" alt="icon" style="display: inline;">&nbsp My Courses</h6>
+                </div>
+                <div class="col"></div>
+            </div>
+            
             <br>
             <br>
             <div class="row">
@@ -33,21 +44,23 @@
 
                     <div class="courses">
                         <a href="#" id="course1">CSC 497</a>
-                        <span class="numbers">16</span>
+                        <span id="notif1" class="numbers"></span>
                         <br>
                         <br>
                         <a href="#" id="course2">CSC 334</a>
-                        <span class="numbers">16</span>
+                        <span id="notif2" class="numbers"></span>
                         <br>
                         <br>
                         <a href="#" id="course3">SPA 200</a>
+                        <span id="notif3" class="numbers"></span>
                         <br>
                         <br>
-                        <a href="#" id="course4">ENG 304 - 01W</a>
+                        <a href="#" id="course4">ENG 304</a>
+                        <span id="notif4" class="numbers"></span>
                         <br>
                         <br>
-                        <a href="#" id="course5">MAT 178 </a>
-                        <span class="numbers">10</span>
+                        <a href="#" id="course5">MAT 178</a>
+                        <span id="notif5" class="numbers"></span>
                     </div>
 
                 </div>
@@ -60,11 +73,11 @@
 
                         <p class="pt-2">A</p>
 
-                        <p class="pt-2">A</p>
+                        <p class="pt-2">A-</p>
 
-                        <p class="pt-2">A</p>
+                        <p class="pt-2">A-</p>
 
-                        <p class="pt-2">A</p>
+                        <p class="pt-2">B+</p>
 
                     </div>
                 </div>
@@ -80,21 +93,22 @@
             <div id="course-display">
 
                 <div class="right-side">
-                    <h4 id="course_header" class="text-center" style="color: #02499d"></h4>
+                    <h2 id="course_header" class="text-center" style="color: #02499d"></h2>
                     <br>
                     <div class="container tabs">
                         <a href="#"><button class="btn" id="tab1" type="button">TOTAL</button></a>
-                        <a href="#"><button class="btn" id="tab2" type="button">GRADED<span class="numbers bg-success">4</span></button></a>
-                        <a href="#"><button class="btn" id="tab3" type="button">UNGRADED<span class="numbers bg-secondary">2</span></button></a>
-                        <a href="#"><button class="btn" id="tab4" type="button">UNSUBMITTED<span class="numbers bg-alert">1</span></button></a>
-                        <a href="#"><button class="btn" id="tab5" type="button">UPCOMING<span class="numbers bg-warning">1</span></button></a>
+                        <a href="#"><button class="btn" id="tab2" type="button">GRADED<span id="notif_graded_tab" class="numbers bg-success"></span></button></a>
+                        <a href="#"><button class="btn" id="tab3" type="button">UNGRADED<span id="notif_ungraded_tab" class="numbers"></span></button></a>
+                        <a href="#"><button class="btn" id="tab4" type="button">UNSUBMITTED<span id="notif_unsub_tab" class="numbers"></span></button></a>
+                        <a href="#"><button class="btn" id="tab5" type="button">UPCOMING<span id="notif_up_tab" class="numbers bg-warning"></span></button></a>
                     </div>
 
                     <div id="selected_course">
                        
                         <div id="assignment-display" class="container text-center">
                             <div id="headings" class="row bg-light border-bottom pt-3 pb-1">
-                                <h5 class="col-6">Assignment</h5>
+                                <div class="col-1"></div>
+                                <h5 class="col-5">Assignment</h5>
                                 <h5 class="col-2">Due Date</h5>
                                 <h5 class="col-2">Grade</h5>
                                 <h5 class="col-2">Status</h5>
